@@ -1,12 +1,6 @@
 pipeline {
     agent any {
     stages {
-        stage('CHECKOUT') {
-            steps {
-               git branch: 'master', changelog: false, poll: false, url: 'https://github.com/akshu2430/simple-node-js-react-npm-app.git'
-            }
-        }
-        
        stage('Build') { 
             steps {
                 sh 'npm install' 
