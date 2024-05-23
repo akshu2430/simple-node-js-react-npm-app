@@ -1,11 +1,11 @@
 pipeline {
-    agent {
-        docker {
-            image 'node:lts-buster-slim'
-        }
-    }
-    environment {
-        CI = 'true'
+    agent any 
+        // docker {
+        //     image 'node:lts-buster-slim'
+        // }
+    
+    // environment {
+    //     CI = 'true'
     }
     stages {
         stage('checkout') {
