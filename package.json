@@ -27,9 +27,9 @@
     ]
   },
   "sonar": {
-    "host.url": "http://your-sonarqube-server:9000",
-    "projectKey": "your_project_key",
+    "host.url": "http://192.168.103.206:9000",
+    "projectKey": "node_project",
     "sources": ".", // Assuming your source files are in the root directory
-    "login": "your_sonar_token"
+    "login": "squ_0956ab2314964f95db52b7c3471b255ea956a07c"
   }
 }
