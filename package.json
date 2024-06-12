@@ -12,7 +12,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-    "sonar": "sonar-scanner" // This is the script to run SonarQube scan
+    "sonar": "sonar-scanner" 
   },
   "browserslist": {
     "production": [
@@ -29,7 +29,7 @@
   "sonar": {
     "host.url": "http://192.168.103.206:9000",
     "projectKey": "node_project",
-    "sources": ".", // Assuming your source files are in the root directory.
+    "sources": ".", 
     "login": "squ_0956ab2314964f95db52b7c3471b255ea956a07c"
   }
 }
